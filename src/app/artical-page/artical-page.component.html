@@ -1,1 +1,28 @@
-<p>artical-page works!</p>
+<html>
+<body>
+    <header>
+        <h1>Write Your Article</h1>
+    </header>
+    <div class="container">
+        <h2>Start Writing</h2>
+        <h4>Title</h4>
+        <input type="text" class="title">
+        <br><br>
+        <div class="toolbar">
+            <button onclick="formatText('bold')">Bold</button>
+            <button onclick="formatText('italic')">Italic</button>
+            <button onclick="formatText('underline')">Underline</button>
+            <button onclick="addEmoji('😊')">😊</button>
+            <button onclick="addEmoji('👍')">👍</button>
+            <button onclick="addEmoji('❤️')">❤️</button>
+        </div>
+        <textarea id="editor" placeholder="Write your article here..."></textarea>
+        <div class="button-container">
+            <button type="button">Post</button>
+            <button type="button">Cancel</button>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
